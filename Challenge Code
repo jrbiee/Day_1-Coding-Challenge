@@ -1,0 +1,8 @@
+def variable_swap(a,b):
+  print(f" Before the swap a = {a} \n Before the swap b = {b} ")
+  a,b = b,a
+  print(f"After the swap a = {a} \n After the swap b = {b}")
+
+a = (input('Please input a: '))
+b = (input('Please input b: '))
+variable_swap(a,b) 
